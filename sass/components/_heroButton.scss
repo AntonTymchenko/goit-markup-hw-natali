@@ -1,0 +1,18 @@
+.hero-button {
+  background-color: var(--akcent-text-button-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  cursor: pointer;
+
+  display: inline-block;
+  padding: 10px 32px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  min-width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid var(--akcent-text-button-color);
+}

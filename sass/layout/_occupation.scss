@@ -1,0 +1,52 @@
+@media screen and (max-width: 1199px) {
+  .occupation {
+    display: none;
+  }
+}
+
+.occupation {
+  padding-bottom: 102px;
+}
+.occupation-list {
+  display: flex;
+}
+.occupation-item {
+  width: 370px;
+  height: 294px;
+}
+.occupation-item:not(:last-child) {
+  margin-right: 30px;
+}
+.occupation-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--link-normal-color);
+
+  display: block;
+  margin-bottom: 50px;
+}
+/* division after image */
+.image-discription {
+  position: relative;
+}
+.occupation-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.text-division {
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}

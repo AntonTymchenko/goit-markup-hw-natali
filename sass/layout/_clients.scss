@@ -1,0 +1,101 @@
+@media screen and (min-width: 0) and (max-width: 479px) {
+  .item-clients {
+    width: 170px;
+    height: 90px;
+  }
+  .list-clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .item-clients:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  &:nth-child(odd) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  .list-clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .item-clients {
+    width: 170px;
+    height: 90px;
+    &:nth-child(odd) {
+      margin-right: 30px;
+    }
+    &:not(:nth-last-child(-n + 2)) {
+      margin-bottom: 30px;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  .list-clients {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item-clients {
+    width: calc((100% - 2 * 30px) / 3);
+    height: 90px;
+    &:nth-child(5),
+    &:nth-child(2) {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    &:nth-child(2) {
+      margin-bottom: 30px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .list-clients {
+    width: 100%;
+    display: flex;
+  }
+  .item-clients {
+    width: calc((100% - 5 * 30px) / 6);
+    height: 90px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
+
+/* SVG clienys images */
+
+.link-clients {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:hover .icon-clients,
+  &:focus,
+  &:focus .icon-clients {
+    fill: var(--akcent-text-button-color);
+    border-color: var(--akcent-text-button-color);
+  }
+}
