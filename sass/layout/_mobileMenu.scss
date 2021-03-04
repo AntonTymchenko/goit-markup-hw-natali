@@ -56,6 +56,7 @@
     opacity: 1;
     z-index: 3;
     pointer-events: all;
+    overflow: auto;
     & .mobile-nav-link,
     & .mobile-close-btn {
       visibility: unset;

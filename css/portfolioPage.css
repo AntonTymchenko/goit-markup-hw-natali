@@ -795,6 +795,7 @@ img {
     opacity: 1;
     z-index: 3;
     pointer-events: all;
+    overflow: auto;
   }
   .mobile-menu.is-open .mobile-nav-link,
   .mobile-menu.is-open .mobile-close-btn {
