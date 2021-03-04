@@ -209,7 +209,7 @@ img {
             align-items: center;
     margin-left: auto;
   }
-  .nav-item-info {
+  .nav-item-info:not(:last-child) {
     margin-right: 30px;
   }
   .nav-info {

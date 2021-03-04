@@ -53,7 +53,9 @@
     margin-left: auto;
   }
   .nav-item-info {
-    margin-right: 30px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   .nav-info {
     font-weight: 500;
