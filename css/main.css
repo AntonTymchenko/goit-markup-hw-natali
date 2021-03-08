@@ -1277,6 +1277,10 @@ img {
   margin-bottom: 30px;
 }
 
+.container.hero {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .main-hero {
     max-width: 768px;
@@ -1304,7 +1308,6 @@ img {
     background-size: cover;
   }
   .container.hero {
-    text-align: center;
     padding: 0 60px;
   }
 }
@@ -1330,7 +1333,6 @@ img {
     background-size: cover;
   }
   .container.hero {
-    text-align: center;
     padding: 0 60px;
   }
 }
